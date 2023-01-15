@@ -7,6 +7,10 @@
     --bs-gutter-y: 1rem;
 }
 
+.app {
+    overflow: hidden;
+}
+
 .love-letter {
     background-image: linear-gradient(to right,#D99EC9, #F6F0C4);
     display: flex;
@@ -151,7 +155,6 @@
 }
 
 .img-cute {
-    width: 25%;
     height: 350px;
     object-fit: cover;
     object-position: center;

@@ -1,0 +1,49 @@
+@media only screen and (max-width: 740px) {
+    .letter-body {
+        flex-direction: column;
+        gap: unset;
+        height: unset;
+        font-size: 16px;
+    }
+    .letter-end-heading {
+        margin: 30px 0;
+    }
+    .dear,
+    .letter-end-heading {
+        font-size: 18px;
+        margin: 30px 0;
+    }
+    .counter-main {
+        gap: 20px;
+    }
+    .counter-couple {
+        gap: 10px;
+    }
+    .counter-val {
+        font-size: 35px;
+    }
+    .counter-label {
+        font-size: 10px;
+    }
+    .counter-msg {
+        margin-top: 30px;
+        font-size: 13px;
+    }
+    .heart-sep-icon {
+        font-size: 20px;
+    }
+    .love-day {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .img-couple {
+        width: 120px;
+        height: 120px;
+    }
+    .img-sub-heading {
+        padding: 0 12px;
+    }
+    .img-cute {
+        height: 250px;
+    }
+}
