@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+* {
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.app {
+
+}
+
+.love-letter {
+    background-image: linear-gradient(to right,#D99EC9, #F6F0C4);
+    display: flex;
+    justify-content: center;
+}
+
+.letter-body {
+    background-color: white;
+    border-radius: 2%;
+    box-shadow: 0.8em 0.8em 15px rgb(0 0 0 / 10%);
+    transform: rotate(2.5deg);
+    transition: all .5s ease;
+    display: flex;
+    width: 700px;
+    height: 500px;
+    margin: 48px;
+    font-size: 18px;
+    padding: 30px;
+    gap: 40px;
+}
+
+.letter-body:hover {
+    transform: rotate(0deg);
+}
+
+.letter-icon {
+    position: absolute;
+}
+
+.dear {
+    font-size: 20px;
+}
+
+.letter-end-heading {
+    font-size: 20px;
+}
+
+.love-counter {
+    background-image: linear-gradient(to right, #F5E3E6, #D9E4F5);
+    padding: 45px 0;
+}
+
+.counter-heading {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+}
+
+.counter-couple {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.img-couple {
+    display: block;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.heart-sep {
+    display: flex;
+    flex-direction: column;
+}
+
+.heart-sep-icon {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+
+.love-day {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.counter-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.couple-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.couple-name {
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.counter-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter-val {
+    margin: 0;
+    font-size: 50px;
+}
+
+.counter-label {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.counter-sep {
+    font-size: 35px;
+    margin: 0;
+}
+
+.counter-msg {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
