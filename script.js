@@ -2,7 +2,8 @@ var t = setInterval(calDate, 1000);
 
 function calDate() {
     date_now = new Date();
-    date_love = new Date("2022-11-16:17:47:00");
+    var arr = "2022-11-16 17:47:00".split(/[- :]/),
+    date_love = new Date(arr[0], arr[1]-1, arr[2], arr[3], arr[4], arr[5]);
 
     seconds = Math.floor((date_now - (date_love))/1000);
     minutes = Math.floor(seconds/60);
