@@ -13,8 +13,8 @@ function calDate() {
     minutes = minutes-(days*24*60)-(hours*60);
     seconds = seconds-(days*24*60*60)-(hours*60*60)-(minutes*60);
 
-    document.getElementById("counter-sec").innerText = seconds;
-    document.getElementById("counter-min").innerText = minutes;
-    document.getElementById("counter-hour").innerText = hours;
-    document.getElementById("counter-days").innerText = days;
+    document.getElementById("counter-sec").textContent = seconds;
+    document.getElementById("counter-min").textContent = minutes;
+    document.getElementById("counter-hour").textContent = hours;
+    document.getElementById("counter-days").textContent = days;
 }
